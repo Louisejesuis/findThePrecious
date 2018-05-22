@@ -1,0 +1,34 @@
+@mixin ring ($width, $color) {
+  width : $width;
+  display : flex;
+  float: left;
+  margin : 20px;
+  height : $width;
+  border-radius : 100%;
+  border : $width/15 solid $color;
+  filter : drop-shadow( 2px 2px 2px darken($color, 20%));
+}
+.navbar {
+  background-color : orange;
+}
+.ring-1 {
+  @include ring(40px, #f47124);
+}
+.ring-3 {
+  @include ring(150px, #ffca2d);
+}
+@for $i from 4 through 9 {
+  .ring-#{$i} {
+    @include ring(7px * $i, #969696);
+    text-align : center;
+  }
+}
+@for $i from 5 through 9 {
+  .ring-#{$i} {
+    margin-left : -35px;
+  }
+}
+.title {
+  display : flex ;
+  float : left;
+}

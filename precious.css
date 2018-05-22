@@ -1,0 +1,122 @@
+.navbar {
+    background-color: orange;
+}
+
+.ring-1 {
+    width: 40px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2.6666666667px solid #f47124;
+    filter: drop-shadow(2px 2px 2px #a94409);
+}
+
+.ring-3 {
+    width: 150px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 150px;
+    border-radius: 100%;
+    border: 10px solid #ffca2d;
+    filter: drop-shadow(2px 2px 2px #c69400);
+}
+
+.ring-4 {
+    width: 28px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 28px;
+    border-radius: 100%;
+    border: 1.8666666667px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-5 {
+    width: 35px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 35px;
+    border-radius: 100%;
+    border: 2.3333333333px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-6 {
+    width: 42px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 42px;
+    border-radius: 100%;
+    border: 2.8px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-7 {
+    width: 49px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 49px;
+    border-radius: 100%;
+    border: 3.2666666667px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-8 {
+    width: 56px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 56px;
+    border-radius: 100%;
+    border: 3.7333333333px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-9 {
+    width: 63px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    height: 63px;
+    border-radius: 100%;
+    border: 4.2px solid #969696;
+    filter: drop-shadow(2px 2px 2px #636363);
+    text-align: center;
+}
+
+.ring-5 {
+    margin-left: -35px;
+}
+
+.ring-6 {
+    margin-left: -35px;
+}
+
+.ring-7 {
+    margin-left: -35px;
+}
+
+.ring-8 {
+    margin-left: -35px;
+}
+
+.ring-9 {
+    margin-left: -35px;
+}
+
+.title {
+    display: flex;
+    float: left;
+}
